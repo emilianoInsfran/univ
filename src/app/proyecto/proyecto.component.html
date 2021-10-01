@@ -1,0 +1,16 @@
+
+<div class="row">
+    <div class="col-12 col-md-4 intro-proyect-info" *ngFor="let data of proyectos; let i = index">
+        <section class="box">
+
+            <header class="img-logo-proyecto logo" [style.background-image]="'url(' + data.imagen  +')'" >  </header>
+
+            <article>
+                <h3>{{data.nombreProyecto}}</h3>
+                <br />
+                <p>{{data.descripcion}}</p>
+            </article>
+
+        </section>
+    </div>
+</div>

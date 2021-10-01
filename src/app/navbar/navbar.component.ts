@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  idResto:number;
+  idResto!: number;
   
   constructor(private route:Router) { }
 

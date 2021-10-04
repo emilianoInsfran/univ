@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+<section class="container top-navbar">
+    <header >
+        <div class="contenedor-imagen">
+            <div class="img-logo-proyecto logo" [style.background-image]="'url(' + detalleProyecto.imagen  +')'"></div> 
+        </div>
+        <div class="circle"></div>
+
+    </header>
+    <article class="box-info">
+        <h1>{{detalleProyecto.nombreProyecto}}</h1> 
+        <h2>Objetivo</h2>
+        <p>{{detalleProyecto.objetivo}}</p>
+        <h2>Beneficios</h2>
+        <p>{{detalleProyecto.beneficios}}</p>
+        <h2>Alcance</h2>
+        <p>{{detalleProyecto.alcance}}</p>
+    </article>
+
+
+  </section>

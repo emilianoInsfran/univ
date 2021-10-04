@@ -9,6 +9,7 @@ import { PerfilComponent } from './reclutador/perfil/perfil.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
+import { InfoProyectoComponent } from './info-proyecto/info-proyecto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProyectoComponent } from './proyecto/proyecto.component';
     PerfilComponent,
     LoginComponent,
     NavbarComponent,
-    ProyectoComponent
+    ProyectoComponent,
+    InfoProyectoComponent
   ],
   imports: [
     BrowserModule,

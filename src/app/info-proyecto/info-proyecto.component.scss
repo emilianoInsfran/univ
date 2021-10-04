@@ -1,6 +1,6 @@
 header {
     position: relative;
-    width: 22%;
+    width: 300px;
     margin: auto;
     background: white;
 
@@ -46,7 +46,11 @@ header {
     z-index: -1;
 
     .nombre-proyecto {
-        margin-top: 5%;
+        margin-top: 50px;
+
+        span {
+            font-size: 1em;
+        }
     }
 }
 

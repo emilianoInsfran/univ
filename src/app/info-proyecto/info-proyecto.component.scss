@@ -85,3 +85,13 @@ hr {
       opacity: 0;
     }
   }
+
+  @media (max-width: 576px) {
+    header {
+        width: initial;
+    }
+
+    .nombre-proyecto {
+        margin-top: 16% !important;
+    }
+  }

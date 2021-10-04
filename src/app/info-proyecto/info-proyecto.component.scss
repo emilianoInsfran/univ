@@ -1,6 +1,6 @@
 header {
     position: relative;
-    width: 300px;
+    width: 250px;
     margin: auto;
     background: white;
 
@@ -47,6 +47,8 @@ header {
 
     .nombre-proyecto {
         margin-top: 50px;
+        color: #e1998a;
+        font-weight: 700;
 
         span {
             font-size: 1em;
@@ -58,7 +60,7 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgb(37 143 177);
 }
 
 

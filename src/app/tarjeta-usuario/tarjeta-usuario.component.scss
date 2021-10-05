@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+body {
+    font-family: 'Maven Pro', sans-serif
+}
+
+body {
+    background-color: #eee
+}
+
+.add {
+    border-radius: 20px
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: all 1s;
+    cursor: pointer
+}
+
+.card:hover {
+    -webkit-box-shadow: 3px 5px 17px -4px #777777;
+    box-shadow: 3px 5px 17px -4px #777777
+}
+
+.ratings i {
+    color: green
+}
+
+.apointment button {
+    border-radius: 20px;
+    background-color: #eee;
+    color: #000;
+    border-color: #eee;
+    font-size: 13px
+}
+// @media (max-width: 767px) {
+//     .carousel-inner .carousel-item > div {
+//         display: none;
+//     }
+//     .carousel-inner .carousel-item > div:first-child {
+//         display: block;
+//     }
+// }
+
+// .carousel-inner .carousel-item.active,
+// .carousel-inner .carousel-item-next,
+// .carousel-inner .carousel-item-prev {
+//     display: flex;
+// }
+
+// /* medium and up screens */
+// @media (min-width: 768px) {
+    
+//     .carousel-inner .carousel-item-end.active,
+//     .carousel-inner .carousel-item-next {
+//       transform: translateX(25%);
+//     }
+    
+//     .carousel-inner .carousel-item-start.active, 
+//     .carousel-inner .carousel-item-prev {
+//       transform: translateX(-25%);
+//     }
+// }
+
+// .carousel-inner .carousel-item-end,
+// .carousel-inner .carousel-item-start { 
+//   transform: translateX(0);
+// }
+
+//   @keyframes carousel {
+//       0%,  17.5%  { transform: translateZ(-35vw) rotateY(0); }
+//       27.5%, 45%  { transform: translateZ(-35vw) rotateY(-120deg); }
+//       55%, 72.5%  { transform: translateZ(-35vw) rotateY(-240deg); }
+//       82.5%, 100% { transform: translateZ(-35vw) rotateY(-360deg); }
+//   }
+
+
+

@@ -18,8 +18,5 @@ export class InfoProyectoComponent implements OnInit {
     if(this.utilsService.getData() != undefined) this.detalleProyecto = this.utilsService.getData();
     else this.route.navigate(['/']);
   }
-
-
-
-
+  
 }

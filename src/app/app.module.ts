@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
 import { InfoProyectoComponent } from './info-proyecto/info-proyecto.component';
+import { TarjetaUsuarioComponent } from './tarjeta-usuario/tarjeta-usuario.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,12 @@ import { InfoProyectoComponent } from './info-proyecto/info-proyecto.component';
     LoginComponent,
     NavbarComponent,
     ProyectoComponent,
-    InfoProyectoComponent
+    InfoProyectoComponent,
+    TarjetaUsuarioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
